@@ -285,8 +285,8 @@ private void listarVehiculos(){
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        this.setVisible(false);
-        ListarVehiculosView v = new ListarVehiculosView();
+        this.dispose();
+        MenuView v = new MenuView();
         v.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
