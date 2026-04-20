@@ -125,7 +125,7 @@ public class ListarVehiculosView extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        jButton1.setText("Agregar Vehiculo");
+        jButton1.setText("Volver al Menu");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -178,8 +178,8 @@ public class ListarVehiculosView extends javax.swing.JFrame {
     }//GEN-LAST:event_calcularConsumosActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        this.setVisible(false);
-        AltaVehiculoView v = new AltaVehiculoView();
+        this.dispose();
+        MenuView v = new MenuView();
         v.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -55,10 +55,8 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jTextField6" max="32767" attributes="0"/>
-                                          <Component id="jTextField2" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="jTextField6" max="32767" attributes="0"/>
+                                      <Component id="jTextField2" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
                                       <Component id="jComboSucursal" pref="159" max="32767" attributes="0"/>
                                       <Component id="jComboTipo" alignment="0" max="32767" attributes="0"/>
                                   </Group>
