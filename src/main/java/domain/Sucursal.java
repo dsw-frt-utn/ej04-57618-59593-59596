@@ -1,10 +1,11 @@
 package domain;
 
 public class Sucursal {
-     private String codigo;
+    private String codigo;
     private String direccion;
     private String ciudad;
     private Responsable responsable;
+
 
     public Sucursal(String codigo, String direccion, String ciudad, Responsable responsable) {
         this.codigo = codigo;

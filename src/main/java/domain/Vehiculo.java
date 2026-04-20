@@ -9,6 +9,7 @@ public abstract class Vehiculo {
     protected Sucursal sucursal;
     private VehiculoTipo tipo;
 
+
     public Vehiculo(VehiculoTipo tipo, String patente, Marca marca, String modelo, int anio, double capacidadCarga, Sucursal sucursal) {
         this.patente = patente;
         this.marca = marca;
@@ -48,6 +49,6 @@ public abstract class Vehiculo {
     }
     @Override
     public String toString() {
-        return patente + " - " + marca.getNombre() + " (" + marca.getPais() + ") " + modelo + " - Sucursal: " + sucursal.getCodigo();
+        return patente + " - " + marca.getNombre() + " (" + marca.getPais() + ") " + modelo;
     }
 }
