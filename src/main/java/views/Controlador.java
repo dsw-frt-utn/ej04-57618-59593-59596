@@ -31,4 +31,8 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+    
+    public static void AgregarVehiculo(String patente, String marcaNombre, String modelo, int anio, double carga, String suc, VehiculoTipo tipo, double kmLitro, double litrosExtra) {
+        Persistencia.inicializarVehiculos(patente, marcaNombre, modelo, anio, carga, suc, tipo, kmLitro, litrosExtra);
+    }
 }
